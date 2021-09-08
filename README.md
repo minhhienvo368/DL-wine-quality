@@ -6,17 +6,15 @@ My mission is to create a AI system that can predict the quality of a wine. In o
 
 Then, I will explore and clean the data (no missing values). 
 After that, I will define the problems as its classification or regression problems.
-Next steps will be:
-
-  + Feature engineering
-  + Feature normalization
-  + Resampling
-  + Hyper-parameter tuning
-      + Change the learning rate
-      + Change the loss function
-  + Modify the architecture
-      + Number of layers
-      + Number of neurons per layer
-      + Activation functions
 
 In machine learning, it is customary to have a baseline model. Thus, the first step of this project is to get a very simple architecture to work with the standard, unmodified data.
+
+## **The steps to build a baseline model using Keras**
+1. Load Data.
+2. Define Keras Model.
+3. Compile Keras Model.
+4. Fit Keras Model.
+5. Evaluate Keras Model.
+6. Tie It All Together.
+7. Make Predictions
+
