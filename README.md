@@ -20,16 +20,28 @@ In machine learning, it is customary to have a baseline model. Thus, the first s
 
 ## 1. Data explaination:
   + **Features (input variables):
-      1 - fixed acidity 
+  
+      1 - fixed acidity:  
+  
       2 - volatile acidity 
+      
       3 - citric acid 
+      
       4 - residual sugar 
+      
       5 - chlorides 
+      
       6 - free sulfur dioxide 
+      
       7 - total sulfur dioxide 
+      
       8 - density 
+      
       9 - pH 
+      
       10 - sulphates 
+      
       11 - alcohol
+      
   + **Target (output variable): 
       quality: score between 0 and 10
