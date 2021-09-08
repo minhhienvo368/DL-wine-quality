@@ -5,7 +5,7 @@ My mission is to create a AI system that can predict the quality of a wine. In o
 ![NYC Picture (Image)](https://www.wine-searcher.com/images/news/74/12/faves1-10007412.jpg)
 
 Then, I will explore and clean the data (no missing values). 
-After that, I will define the problems as its classificative or regressive problems.
+After that, I will define the problems as its classification or regression problems.
 Next steps will be:
 
   + Feature engineering
