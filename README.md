@@ -60,11 +60,11 @@ The rating of wine quality distribute is mostly at 5, 6, 7. There is an imbalanc
 
 ## Building a basic neural network  model
 
-<img src="assets/basic_NN_model.jpg" width="400">
+<img src="assets/basic_NN_model.jpg" width="500">
 
 
 
-<img src="assets/base_plot_acc_loss.jpg" width="400">
+<img src="assets/base_plot_acc_loss.jpg" width="600">
 61/61 - 0s 1ms/step - loss: 0.4942 - accuracy: 0.7610
 143/143 - 0s 884us/step - loss: 0.4418 - accuracy: 0.7983
 
