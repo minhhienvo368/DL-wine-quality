@@ -36,26 +36,14 @@ So the main target is to build a neural network model that can predict the quali
 
 ## 1. Data description:
   + **Features** (input variables):
-  
-      1 - fixed acidity  
-      2 - volatile acidity       
-      3 - citric acid       
-      4 - residual sugar       
-      5 - chlorides      
-      6 - free sulfur dioxide       
-      7 - total sulfur dioxide       
-      8 - density       
-      9 - pH      
-      10 - sulphates      
-      11 - alcohol
       
-  ![Data description](./assets/data_description.jpg)    
-  ### **Inferences from the dataset**:
+  ![Data description](./assets/data_description.jpg)   
+  
+  #### **Inferences from the dataset**:
 
    * The average of **'quality'** is 5.81 
    * **pH** has a high mean of 3.21, max is 4.01
    * **alcohol** has also high mean 10.49
-
 
   + **Target** (output variable): 
       quality: score between 0 and 10
@@ -64,7 +52,7 @@ So the main target is to build a neural network model that can predict the quali
  
 The rating of wine quality distribute is mostly at 5, 6, 7. There is an imbalance in data distribution between categories. 
 
-  ### Binary classifier
+  ### Target binary convert
 
 | original quality values            | binary quality value         |
 |-------------------|----------------------------------------------|
@@ -106,16 +94,27 @@ The rating of wine quality distribute is mostly at 5, 6, 7. There is an imbalanc
 
 <img src="assets/base_confusion_matrix.jpg" width="400">
 
-## Grid search
+## Using GridSearchCV on hyperparameters
 
+| Hyperparameter| Value given| Best values|Highest accuracy rate|
+|:---|:---|:---|:---|
+|batch size| [10, 20, 40, 60, 80, 100]|80|0.77|
+|epochs|[10, 50, 100]|50|0.77|
+|optimizer|['SGD', 'RMSprop', 'Adagrad', 'Adadelta', 'Adam', 'Adamax', 'Nadam']|RMSprop|0.764|
+|learning_rate|[0.001, 0.01, 0.1, 0.2, 0.3]|0.001|0.769|
+|momentum|[0.0, 0.2, 0.4, 0.6, 0.8, 0.9]|0.9|0.769|
+|activation|['softmax', 'softplus', 'softsign', 'relu', 'tanh', 'sigmoid', 'linear']|tanh|0.77|
+|weight_constraint|[1, 2, 3, 4, 5]|5|0.765|
+|dropout_rate|[0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]|0.1|0.765|
+|neurons|[1, 5, 10, 15, 20, 22, 25, 30]|5|0.755|
 
 ### Root folder
 | File            | Description                                                 |
 |-------------------|-------------------------------------------------------------|
-| assets/wine_full.csv| Directory containing graphics                        |
-| DL-wine-quality | Python script containing functions for dataset manipulation|
-| GridSearch_HyperParameters | Python script containing functions for Gridsearch code | 
-| main.py          | Python script with the final version of the project | 
+| assets| Directory containing graphics                        |
+| DL-wine-quality | Python notebook containing functions for dataset manipulation|
+| GridSearch_HyperParameters | Python notebook containing functions for Gridsearch code | 
+| wine.py        | Python script with the final version of the project | 
 
 
 # Contributor
