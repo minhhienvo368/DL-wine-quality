@@ -8,10 +8,7 @@ The main aims of the project is to create a AI system that can predict the quali
 
 ![Picture (Image)](https://www.wine-searcher.com/images/news/74/12/faves1-10007412.jpg)
 
-Then, I will explore and clean the data (no missing values). 
-After that, I will define the problems as its classification or regression problems.
-
-So the main target is to build a neural network model that can predict the quality of wine (i.e. good or bad). Then, improving the model performance by tuning hyperparameters.
+Next, I will explore and clean the data. Luckily, the data has been cleaned by the other team. Overall, the main target is to build a neural network model that can predict the quality of wine (i.e. good or bad). Then, improving the model performance by tuning hyperparameters.
 
 ## Installation
 ### Python version
@@ -66,10 +63,10 @@ The rating of wine quality distribute is mostly at 5, 6, 7. There is an imbalanc
 
 + **Inferences from the heatmap**:
     * High degree of positive correlation between **alcohol** and **quality**. Wines with high alcohol content are perceived as better quality
-    * Negative correlation between **quality** and **density**, **volatile acidity**.F
+    * Negative correlation between **quality** and **density**; **quality** and **volatile acidity**
 
-    * Features have positive impact on Wine Quality are: 'fixed_acidity', 'residual_sugar','free_sulfur_dioxide', 'pH', 'sulphates', 'alcohol'
-    * Features have negative impact on Wine Quality are: 'volatile_acidity', 'citric_acid', 'chlorides', 'total_sulfur_dioxide', 'density'
+    * Features have **positive** impact on Wine Quality are: 'fixed_acidity', 'residual_sugar','free_sulfur_dioxide', 'pH', 'sulphates', 'alcohol'
+    * Features have **negative** impact on Wine Quality are: 'volatile_acidity', 'citric_acid', 'chlorides', 'total_sulfur_dioxide', 'density'
 
 
 ## Building a basic neural network  model
@@ -88,15 +85,22 @@ The rating of wine quality distribute is mostly at 5, 6, 7. There is an imbalanc
 
 ## Turning Models
 
-  + Tuning on Activation functions
+  + Tune **Activation** functions:
+    * Plot of loss rate and epochs
+  
+ <img src="assets/tuning_loss_Activation.jpg" width="400">
+ 
+  
+  
+  + Tune **Optimizer** functions:
+<img src="assets/tuning_loss_Optimizer.jpg" width="400">
 
-  + Tuning on Optimizer functions
 
-<img src="assets/base_confusion_matrix.jpg" width="400">
+<img src="assets/tuning_Activation_tanh.jpg" width="400">
 
 ## Using GridSearchCV on hyperparameters
 
-| Hyperparameter| Value given| Best values|Highest accuracy rate|
+| Hyperparameter| Value given| Best values|Accuracy rate|
 |:---|:---|:---|:---|
 |batch size| [10, 20, 40, 60, 80, 100]|80|0.77|
 |epochs|[10, 50, 100]|50|0.77|
@@ -108,13 +112,16 @@ The rating of wine quality distribute is mostly at 5, 6, 7. There is an imbalanc
 |dropout_rate|[0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]|0.1|0.765|
 |neurons|[1, 5, 10, 15, 20, 22, 25, 30]|5|0.755|
 
+
+
+
+
 ### Root folder
 | File            | Description                                                 |
 |-------------------|-------------------------------------------------------------|
 | assets| Directory containing graphics                        |
-| DL-wine-quality | Python notebook containing functions for dataset manipulation|
-| GridSearch_HyperParameters | Python notebook containing functions for Gridsearch code | 
-| wine.py        | Python script with the final version of the project | 
+| DL-wine-quality | Python notebook containing functions for dataset manipulation, building base model|
+| GridSearch_HyperParameters | Python notebook containing functions for Gridsearch | 
 
 
 # Contributor
