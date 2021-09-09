@@ -65,8 +65,8 @@ The rating of wine quality distribute is mostly at 5, 6, 7. There is an imbalanc
 
 
 <img src="assets/base_plot_acc_loss.jpg" width="600">
-  + 61/61 - 0s 1ms/step - loss: 0.4942 - accuracy: 0.7610
-  + 143/143 - 0s 884us/step - loss: 0.4418 - accuracy: 0.7983
+  + Model evaluation on the Test set - loss: 0.4942 - accuracy: 0.7610
+  + Model evaluation on the Training set -loss: 0.4418 - accuracy: 0.7983
 
 <img src="assets/base_confusion_matrix.jpg" width="400">
 
