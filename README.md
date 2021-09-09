@@ -52,7 +52,21 @@ The rating of wine quality distribute is mostly at 5, 6, 7. There is an imbalanc
    <img src="assets/heatmap.jpg" width="500">
 
 + **Inferences from the heatmap**:
- 
- * High degree of positive correlation between alcohol and quality. Wines with high alcohol content are perceived as better quality
- * Negative correlation between **quality** and **density**, **volatile acidity**.
-## 
+    * High degree of positive correlation between **alcohol** and **quality**. Wines with high alcohol content are perceived as better quality
+    * Negative correlation between **quality** and **density**, **volatile acidity**.
+
+## Building a non neural network model
+
+
+## Building a basic neural network  model
+
+<img src="assets/basic_NN_model.jpg" width="400">
+
+
+
+<img src="assets/base_plot_acc_loss.jpg" width="400">
+61/61 - 0s 1ms/step - loss: 0.4942 - accuracy: 0.7610
+143/143 - 0s 884us/step - loss: 0.4418 - accuracy: 0.7983
+
+<img src="assets/base_confusion_matrix.jpg" width="400">
+
