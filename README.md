@@ -53,7 +53,12 @@ The rating of wine quality distribute is mostly at 5, 6, 7. There is an imbalanc
 
 + **Inferences from the heatmap**:
     * High degree of positive correlation between **alcohol** and **quality**. Wines with high alcohol content are perceived as better quality
-    * Negative correlation between **quality** and **density**, **volatile acidity**.
+    * Negative correlation between **quality** and **density**, **volatile acidity**.F
+
+    * Features have positive impact on Wine Quality are: 'fixed_acidity', 'residual_sugar','free_sulfur_dioxide', 'pH', 'sulphates', 'alcohol'
+    * Features have negative impact on Wine Quality are: 'volatile_acidity', 'citric_acid', 'chlorides', 'total_sulfur_dioxide', 'density'
+
+Features have positive impact on Wine Quality are: 'fixed_acidity', 'residual_sugar','free_sulfur_dioxide', 'pH', 'sulphates', 'alcohol'
 
 ## Building a non neural network model
 
