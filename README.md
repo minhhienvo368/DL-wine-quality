@@ -84,17 +84,15 @@ The rating of wine quality distribute is mostly at 5, 6, 7. There is an imbalanc
 <img src="assets/base_confusion_matrix.jpg" width="400">
 
 ## Turning Models
+  
+  + Tune **Optimizer** functions:
+<img src="assets/tuning_loss_Optimizer.jpg" width="400">
 
   + Tune **Activation** functions:
     * Plot of loss rate and epochs
   
  <img src="assets/tuning_loss_Activation.jpg" width="400">
  
-  
-  
-  + Tune **Optimizer** functions:
-<img src="assets/tuning_loss_Optimizer.jpg" width="400">
-
 
 <img src="assets/tuning_Activation_tanh.jpg" width="400">
 
