@@ -58,7 +58,6 @@ The rating of wine quality distribute is mostly at 5, 6, 7. There is an imbalanc
     * Features have positive impact on Wine Quality are: 'fixed_acidity', 'residual_sugar','free_sulfur_dioxide', 'pH', 'sulphates', 'alcohol'
     * Features have negative impact on Wine Quality are: 'volatile_acidity', 'citric_acid', 'chlorides', 'total_sulfur_dioxide', 'density'
 
-Features have positive impact on Wine Quality are: 'fixed_acidity', 'residual_sugar','free_sulfur_dioxide', 'pH', 'sulphates', 'alcohol'
 
 ## Building a non neural network model
 
