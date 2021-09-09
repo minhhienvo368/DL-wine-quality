@@ -72,3 +72,5 @@ The rating of wine quality distribute is mostly at 5, 6, 7. There is an imbalanc
 
 <img src="assets/base_confusion_matrix.jpg" width="400">
 
+## Turning Models
+
