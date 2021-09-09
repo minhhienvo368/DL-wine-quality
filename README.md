@@ -34,7 +34,7 @@ In machine learning, it is customary to have a baseline model. Thus, the first s
       9 - pH      
       10 - sulphates      
       11 - alcohol
-  ![Data description] (./assets/data_description.jpg)    
+  ![Data description](./assets/data_description.jpg)    
   
   + **Target** (output variable): 
       quality: score between 0 and 10
