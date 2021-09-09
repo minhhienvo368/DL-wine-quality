@@ -117,9 +117,9 @@ The rating of wine quality distribute is mostly at 5, 6, 7. There is an imbalanc
 ### Root folder
 | File            | Description                                                 |
 |-------------------|-------------------------------------------------------------|
-| assets| Directory containing graphics                        |
-| DL-wine-quality | Python notebook containing functions for dataset manipulation, building base model|
-| GridSearch_HyperParameters | Python notebook containing functions for Gridsearch | 
+| assets/| Directory containing graphics                        |
+| DL-wine-quality.ipynb | Python notebook containing functions for dataset manipulation, building base model|
+| GridSearch_HyperParameters.ipynb | Python notebook containing functions for Gridsearch | 
 
 
 # Contributor
