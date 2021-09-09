@@ -35,10 +35,24 @@ In machine learning, it is customary to have a baseline model. Thus, the first s
       10 - sulphates      
       11 - alcohol
   ![Data description](./assets/data_description.jpg)    
-  
+  ### **Inferences from the dataset**:
+
+   * The average of **'quality'** is 5.81 
+   * **pH** has a high mean of 3.21, max is 4.01
+   * **alcohol** has also high mean 10.49
+
+
   + **Target** (output variable): 
       quality: score between 0 and 10
       
  <img src="assets/target_distribution.jpg" width="400">
  
-The rating of wine quality distribute mostly at 5,6,7. It is possible to transform it into binary values (i.e. 0, 1)
+The rating of wine quality distribute is mostly at 5, 6, 7. There is an imbalance in data distribution between categories. 
+  + **Correlation between variables**
+   <img src="assets/heatmap.jpg" width="500">
+
++ **Inferences from the heatmap**:
+ 
+ * High degree of positive correlation between alcohol and quality. Wines with high alcohol content are perceived as better quality
+ * Negative correlation between **quality** and **density**, **volatile acidity**.
+## 
