@@ -38,3 +38,4 @@ In machine learning, it is customary to have a baseline model. Thus, the first s
   
   + **Target** (output variable): 
       quality: score between 0 and 10
+ ![target distribution](./assets/target_distribution.jpg)  
