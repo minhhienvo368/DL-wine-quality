@@ -37,7 +37,7 @@ So the main target is to build a neural network model that can predict the quali
 ## 1. Data description:
   + **Features** (input variables):
   
-      1 - fixed acidity:    
+      1 - fixed acidity  
       2 - volatile acidity       
       3 - citric acid       
       4 - residual sugar       
@@ -48,6 +48,7 @@ So the main target is to build a neural network model that can predict the quali
       9 - pH      
       10 - sulphates      
       11 - alcohol
+      
   ![Data description](./assets/data_description.jpg)    
   ### **Inferences from the dataset**:
 
@@ -64,13 +65,16 @@ So the main target is to build a neural network model that can predict the quali
 The rating of wine quality distribute is mostly at 5, 6, 7. There is an imbalance in data distribution between categories. 
 
   ### Binary classifier
-  + **Correlation between variables**
-   <img src="assets/heatmap.jpg" width="500">
 
 | original quality values            | binary quality value         |
 |-------------------|----------------------------------------------|
-| 2, 3, 4, 5 | 0 (bad)                         |
-| 6, 7, 8, 9 | 1 (good) | 
+| 1 - 5 | 0 (bad)                         |
+| 6 - 9 | 1 (good) | 
+
+   <img src="assets/target_binary.jpg" width="400">
+
+  + **Correlation between variables**
+   <img src="assets/heatmap.jpg" width="500">
 
 + **Inferences from the heatmap**:
     * High degree of positive correlation between **alcohol** and **quality**. Wines with high alcohol content are perceived as better quality
