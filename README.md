@@ -108,7 +108,7 @@ The rating of wine quality distribute is mostly at 5, 6, 7. There is an imbalanc
 |activation|['softmax', 'softplus', 'softsign', 'relu', 'tanh', 'sigmoid', 'linear']|tanh|0.77|
 |weight_constraint|[1, 2, 3, 4, 5]|5|0.765|
 |dropout_rate|[0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]|0.1|0.765|
-|neurons|[1, 5, 10, 15, 20, 22, 25, 30]|5|0.755|
+|neurons|[1, 5, 10, 15, 20, 22, 25, 30]|30|0.755|
 
 
 
