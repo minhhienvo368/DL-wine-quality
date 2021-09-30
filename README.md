@@ -2,9 +2,9 @@
 
 
 ## Project aims:
-This project is about predicting the Wine quality by applying Neural Network - a deep learning technique. 
+This project is about the wine quality prediction by applying Neural Network - a deep learning technique. 
 
-The main aims of the project is to create a AI system that can predict the quality of a wine. In order to do that, first, I will get the data provided by customer in the folder "additional_resources/datasets/Wine Quality/wine.csv"; 
+The main aim of the project is to create a AI system that can predict the quality of a wine. In order to do that, first, I will get the data provided by customer in the folder "additional_resources/datasets/Wine Quality/wine.csv"; 
 
 ![Picture (Image)](https://www.wine-searcher.com/images/news/74/12/faves1-10007412.jpg)
 
