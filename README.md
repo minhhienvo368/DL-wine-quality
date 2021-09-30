@@ -2,9 +2,9 @@
 
 
 ## Project aims:
-This project is about the wine quality prediction adopting Neural Network model - a deep learning technique. 
+This project is about the wine quality prediction adopting deep learning technology. 
 
-The main aim of the project is to create a AI system that can predict the quality of a wine. In order to do that, first, I will get the data provided by customer in the folder "additional_resources/datasets/Wine Quality/wine.csv"; 
+The main aim of the project is to build a neural net model that can predict the quality of a wine. In order to do that, first, I will get the data provided by customer in the folder "additional_resources/datasets/Wine Quality/wine.csv"; 
 
 ![Picture (Image)](https://www.wine-searcher.com/images/news/74/12/faves1-10007412.jpg)
 
@@ -109,7 +109,6 @@ The rating of wine quality distribute is mostly at 5, 6, 7. There is an imbalanc
 |weight_constraint|[1, 2, 3, 4, 5]|5|0.765|
 |dropout_rate|[0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]|0.1|0.765|
 |neurons|[1, 5, 10, 15, 20, 22, 25, 30]|30|0.755|
-
 
 
 
